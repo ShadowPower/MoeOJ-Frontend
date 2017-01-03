@@ -1,33 +1,15 @@
 <template>
   <div id="app">
-    <div class="test">
-      MoeOJ的主页
-    </div>
-    <img v-bind:src="logoImg">
-    <h1>{{ msg }}</h1>
-    <el-button @click.native="startHacking">Let's do it</el-button>
+    <p>
+      Moe Online Judge
+    </p>
+    <a href="menu.html">进入</a>
   </div>
 </template>
 
 <script>
-import logo from 'assets/img/logo.png'
 export default {
-  data () {
-    return {
-      msg: 'Use Vue 2.0 Today!',
-      logoImg: logo
-    }
-  },
 
-  methods: {
-    startHacking () {
-      this.$notify({
-        title: 'It Works',
-        message: 'We have laid the groundwork for you. Now it\'s your time to build something epic!',
-        duration: 6000
-      })
-    }
-  }
 }
 </script>
 

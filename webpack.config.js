@@ -21,8 +21,8 @@ var config = {
     //配置别名，在项目中可缩减引用路径
     extensions: ['.js', '.vue'],
     alias: {
-      assets: path.join(__dirname,'/app/assets'),
-      components: path.join(__dirname,'/app/components'),
+      assets: path.join(__dirname, '/app/assets'),
+      components: path.join(__dirname, '/app/components'),
       root: path.join(__dirname, 'node_modules')
     }
   },
