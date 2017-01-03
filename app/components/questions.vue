@@ -1,7 +1,7 @@
 <template>
   <el-table :data="tableData" style="width: 100%">
     <el-table-column prop="qid" label="#" width="70"></el-table-column>
-    <el-table-column prop="title" label="题目" width="580"></el-table-column>
+    <el-table-column prop="title" label="题目" width="380"></el-table-column>
     <el-table-column prop="level" label="难度" width="70"></el-table-column>
     <el-table-column prop="pass" label="通过率"></el-table-column>
   </el-table>
